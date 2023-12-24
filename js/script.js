@@ -107,5 +107,5 @@ document.getElementById('sendForm').addEventListener('submit', async function(ev
     body: JSON.stringify(apply)
   });
 alert("done Send Message To Black Wait To Reply For a you In Your Email"); 
-    document.location.href='https://black-portfolio-xi.vercel.app/#'; 
+    location.href='https://black-portfolio-xi.vercel.app/#'; 
 });
