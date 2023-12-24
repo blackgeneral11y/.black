@@ -84,10 +84,10 @@ document.getElementById('sendForm').addEventListener('submit', async function(ev
   event.preventDefault();
 
   const formData = new FormData(this);
-  const webhookUrl = 'url'; // here webhook url link
+  const webhookUrl = 'https://discord.com/api/webhooks/1188559408825905253/3OGUTACiHj4KHXf4PE9q7C0ficbGymXm4ekigOEfkytE7SA58qFFU9xcPFL0wD2FXT-X'; // here webhook url link
 
   const apply = {
-    content: '**New Application Submitted:**',
+    content: '**New Mail To Black:**',
     embeds: [{
       title: 'Application Details',
       color: 0x3498db,
