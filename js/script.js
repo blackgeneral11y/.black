@@ -55,7 +55,7 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-});
+loaf);
 */
 
 /*========== dark light mode ==========*/
@@ -68,7 +68,7 @@ darkModeIcon.onclick = () => {
 
 
 /*========== scroll reveal ==========
-ScrollReveal({
+crollReveal({
     // reset: true,
     distance: '80px',
     duration: 2000,
@@ -106,5 +106,6 @@ document.getElementById('sendForm').addEventListener('submit', async function(ev
     },
     body: JSON.stringify(apply)
   });
-alert("done Send Message To Black Wait To Reply For a you In Your Email")
+alert("done Send Message To Black Wait To Reply For a you In Your Email"); 
+    document.lication.href='./index.html'; 
 });
