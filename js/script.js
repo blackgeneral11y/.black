@@ -80,6 +80,9 @@ ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .test
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
 ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });*/
 /*========== Input Script ==========*/
+function load (){
+    window.location.href='https://black-portfolio1.vercel.app/#'; 
+} 
 document.getElementById('sendForm').addEventListener('submit', async function(event) {
   event.preventDefault();
 
@@ -107,5 +110,5 @@ document.getElementById('sendForm').addEventListener('submit', async function(ev
     body: JSON.stringify(apply)
   });
 alert("done Send Message To Black Wait To Reply For a you In Your Email"); 
-    window.location.href='https://black-portfolio1.vercel.app/'; 
+    load(); 
 });
